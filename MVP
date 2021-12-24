@@ -1,0 +1,65 @@
+<!Doctype HTML>
+<html lang ="en">
+<head>
+  <meta charset = "UTF-8">
+
+
+<title>First project</title>
+<link rel = "stylesheet" href = "indexcss.css">
+</head>
+
+<body>
+  <form>
+<hr>
+<form>
+<label for = "username">Enter your username:</label><br>
+<input type="text"><br>
+<label for="password">Enter your password:</label><br>
+<input type="text"><br>
+<input type="button" value = "Submit"><br>
+</form>
+<hr>
+<h1>Who am I?</h1>
+<h2><bold>About me </bold></h2>
+<p>My name is Yernar, surname is Yes. I am a first course student of Astana IT University</p>
+<p>This web-site was created for WEB-TECHNOLOGIES lesson.</p>
+<img src = " https://www.techbooky.com/wp-content/uploads/2018/01/LinuxCon_Europe_Linus_Torvalds_03_cropped.jpg" height="200" width="150", alt = "Unfortunately,I haven't my own pic. Here you are Kute Linus)">
+<div class = "color">
+  <hr>
+  <h3> Courses which I am studing in 2 trimester</h3>
+
+    <ol>
+    <li>Calculus (1)</li>
+    <li>Web Technologies</li>
+    <li>PE</li>
+    <li>English</li>
+    <li>Java (OOP)</li>
+  </ol>
+</hr>
+<table border = "A">
+  <tr>
+    <td> Social networks </td>
+    <td> Current status </td>
+  </tr>
+
+  <tr>
+    <td> Instagram </td>
+    <td> Missing </td>
+  </tr>
+
+  <tr>
+    <td> Facebook </td>
+    <td> Missing </td>
+  </tr>
+
+  <tr>
+    <td> Telegram </td>
+    <td> Available </td>
+  </tr>
+<hr>
+<p>Thanks to the <a href = "https://www.w3schools.com/">w3schools</a><p>
+
+</body>
+
+
+</html>
