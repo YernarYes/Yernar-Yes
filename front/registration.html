@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- Created By Codecary -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="regSTYLE.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="javascript.js"></script>
+    <script>
+    $(document).ready(function(){
+      $("button").click(function(){
+        var div = $("div");
+        div.animate({left: '100px'}, "slow");
+        div.animate({fontSize: '1.5em'}, "slow");
+      });
+    });
+    </script>
+</head>
+<body>
+
+  <div class="container">
+
+
+    <h1>Sign in</h1>
+
+    <div style="background:#4ECCA3;height:100px;width:200px;position:absolute;">Thanks to the sign in</div>
+
+    <form>
+      <div class="form-control">
+        <input type="text" required id="demo" onkeypress="myFunction()">
+        <script>
+        function myFunction() {
+          document.getElementById("demo").style.backgroundColor = "#4ECCA3";
+        }
+        </script>
+
+
+      </div>
+      <div class="form-control">
+        <input type="password" required id="demo" onkeypress="myFunction()">
+
+      </div>
+      <button class="btn" onclick="playMp()">Send Message</button>
+      <script>
+      function playMp() {
+  var audio = new Audio('soundfx.mp3');
+  audio.play();
+}
+      </script>
+
+      <p class="text">Come back to main <a href="index.html">page</a></p>
+    </form>
+  </div>
+  <script src = "javascript.js"></script>
+</body>
+</html>

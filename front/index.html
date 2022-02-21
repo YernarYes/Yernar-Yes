@@ -1,0 +1,214 @@
+  <!DOCTYPE html>
+  <html>
+      <head>
+          <meta charset = "utf-8">
+          <title>cpp.only</title>
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+          <link rel="stylesheet" href="style/index.css">
+
+<!--  google font Roboto шрифт-->
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+<!-- bootstrap скрипты -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+<!-- jq скрипты -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+      </head>
+      <body>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script>
+alert("Hello dear student!");
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+        <!-- шапка сайта -->
+        <section id = "shapka">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#" id="demo" onmouseover="mouseOver()" onmouseout="mouseOut()">Cpp.only</a>
+        <script>
+function mouseOver() {
+  document.getElementById("demo").style.color = "#4ECCA3";
+}
+
+function mouseOut() {
+  document.getElementById("demo").style.color = "white";
+}
+</script>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" padding:30px>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="About.html">About us <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                Lessons
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#1">PostgreSql-12 & C++</a>
+                <a class="dropdown-item" href="#2">Learning standards of C++</a>
+                <a class="dropdown-item" href="#3">Working with networks</a>
+              </div>
+            </li>
+            <li class="nav-item">
+
+              <a class="nav-link" href="registration.html">Login</a>
+
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
+
+
+
+
+<!-- слоган-->
+  <div class="row">
+    <div class="col-lg-6">
+      <h1> <blockquote>#include "cpponly.h" </blockquote></h1>
+      <h2> <blockquote>Expand your knowledge  </blockquote></h2>
+<!-- карусель (слайдшоу)-->
+      <button type="button" class="btn btn-outline-light btn-lg download-button"><a href="https://t.me/+eZ5RREAgp1o5ZTUy">Telegram</a></button>
+    </div>
+    <div class="col-lg-6">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    </ol>
+      <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/cpp2.png" class="d-block w-100" >
+      </div>
+      <div class="carousel-item">
+        <img src="img/debug.png" class="d-block w-100" >
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </button>
+  </div>
+
+    </div>
+  </div>
+  </div>
+
+  </section>
+
+
+<!--Слоган explanation -->
+
+
+
+<dr>
+
+  <dr>
+<!--Карты (статьи) -->
+          <div class="row row-cols-1 row-cols-md-3">
+      <div class="col mb-4">
+        <div class="card h-100">
+          <img src="img/cypher.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Practical encryption. Beginning.</h5>
+            <a class ="card-text" href = "https://telegra.ph/Prakticheskoe-shifrovanie-Nachalo-11-05">Read on telegra.ph</a>
+            <p>Mostly in Kazakhstan telegra.ph isn't working, so i recommend you to open it with Tor or VPN</p>
+      <p>Author:cam0uflage</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <img src="img/standards.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Learning standards C++17</h5>
+            <a class ="card-text" href = "https://telegra.ph/Izuchaya-standart-S17-1-10-29">Read on telegra.ph</a>
+            <p>Mostly in Kazakhstan telegra.ph isn't working, so i recommend you to open it with Tor or VPN</p>
+      <p>Author:cam0uflage</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <img src="img/postgresql_n_cpp.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">PostgreSql and Cpp</h5>
+            <a class="card-text" href = "https://telegra.ph/PostgreSQL-12-i-C-CHast-I-08-03">Read on telegra.ph</a>
+            <p>Mostly in Kazakhstan telegra.ph isn't working, so i recommend you to open it with Tor or VPN</p>
+            <p>Author:cam0uflage</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="card h-100">
+          <img src="img/coding.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Keylogger in C++17</h5>
+            <a class ="card-text" href = "https://telegra.ph/Izuchaya-standart-S17-1-10-29">Read on telegra.ph</a>
+            <p>Mostly in Kazakhstan telegra.ph isn't working, so i recommend you to open it with Tor or VPN</p>
+      <p>Author:cam0uflage</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <img src="img/first.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Hacking tools in C++</h5>
+            <a class ="card-text" href = "https://telegra.ph/Izuchaya-standart-S17-1-10-29">Read on telegra.ph</a>
+            <p>Mostly in Kazakhstan telegra.ph isn't working, so i recommend you to open it with Tor or VPN</p>
+      <p>Author:cam0uflage</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <img src="img/second.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Backdoor using C++</h5>
+            <a class ="card-text" href = "https://telegra.ph/Izuchaya-standart-S17-1-10-29">Read on telegra.ph</a>
+            <p>Mostly in Kazakhstan telegra.ph isn't working, so i recommend you to open it with Tor or VPN</p>
+      <p>Author:cam0uflage</p>
+          </div>
+        </div>
+      </div>
+
+<!--Conlusion -->
+    <div class = "conclusion">
+
+
+<h4 >  How long do you have to wait for an article?</h4>
+
+<p>Articles publishing once a week, if you want to learn more you can visit our telegram page.</p>
+  <p>Thanks to the @cam0uflage for writing useful code as an example in telegram page and for the web page!</p>
+<p>Copyright 2022 cpp.only</p>
+    </div>
+
+
+
+
+
+
+      </body>
+  </html>
